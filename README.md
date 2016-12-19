@@ -17,7 +17,7 @@ Expect to clone pt3react with naming client.
 ## Setup
 ### install
 `npm install`
-`pip install -r requirements.txt`
+`pip install -r requirements.txt`  
 `export DJANGO_SECRET_KEY='your-secret-key'`
 
 ### launch in dev mode
@@ -62,6 +62,10 @@ use admin console (/admin) or coding
 
 
 ## Misc
+- Resource mapping stats files will be automatically generated every time when you execute build command.  
+  In dev: honcho start -> webpack-stats.json  
+  In Prod: npm run build -> webpack-stats-prod.json
+
 - Book / BookList model is just dummy. delete those.
 
 
