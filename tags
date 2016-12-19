@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	api/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_location.py	api/migrations/0002_location.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	drf_react/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:9
+AUTH_PASSWORD_VALIDATORS	drf_react/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:75
+ApiConfig	api/apps.py	/^class ApiConfig(AppConfig):$/;"	kind:class	line:6
+AppConfig	api/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:3
+BASE_DIR	drf_react/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:3
+Book	api/admin.py	/^from api.models import Book, Location$/;"	kind:namespace	line:2
+Book	api/models.py	/^class Book(models.Model):$/;"	kind:class	line:3
+Book	api/serializers.py	/^from .models import Book, Location$/;"	kind:namespace	line:3
+Book	api/views.py	/^from .models import Book, Location$/;"	kind:namespace	line:3
+BookList	api/views.py	/^class BookList(generics.ListCreateAPIView):$/;"	kind:class	line:6
+BookSerializer	api/serializers.py	/^class BookSerializer(serializers.ModelSerializer):$/;"	kind:class	line:5
+BookSerializer	api/views.py	/^from .serializers import BookSerializer, LocationSerializer$/;"	kind:namespace	line:4
+DATABASES	drf_react/settings.py	/^DATABASES = {$/;"	kind:variable	line:64
+DEBUG	drf_react/settings.py	/^DEBUG = os.environ.get('DEBUG', 'on') == 'on'$/;"	kind:variable	line:8
+DefaultRouter	api/urls.py	/^from rest_framework.routers import DefaultRouter$/;"	kind:namespace	line:4
+INSTALLED_APPS	drf_react/settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:14
+LANGUAGE_CODE	drf_react/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:94
+Location	api/admin.py	/^from api.models import Book, Location$/;"	kind:namespace	line:2
+Location	api/models.py	/^class Location(models.Model):$/;"	kind:class	line:8
+Location	api/serializers.py	/^from .models import Book, Location$/;"	kind:namespace	line:3
+Location	api/views.py	/^from .models import Book, Location$/;"	kind:namespace	line:3
+LocationList	api/views.py	/^class LocationList(generics.ListCreateAPIView):$/;"	kind:class	line:14
+LocationSerializer	api/serializers.py	/^class LocationSerializer(serializers.ModelSerializer):$/;"	kind:class	line:12
+LocationSerializer	api/views.py	/^from .serializers import BookSerializer, LocationSerializer$/;"	kind:namespace	line:4
+MIDDLEWARE_CLASSES	drf_react/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	kind:variable	line:29
+Meta	api/serializers.py	/^	class Meta:$/;"	kind:class	line:14
+Meta	api/serializers.py	/^	class Meta:$/;"	kind:class	line:7
+Migration	api/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	api/migrations/0002_location.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+REST_FRAMEWORK	drf_react/settings.py	/^REST_FRAMEWORK = {$/;"	kind:variable	line:105
+ROOT_URLCONF	drf_react/settings.py	/^ROOT_URLCONF = 'drf_react.urls'$/;"	kind:variable	line:40
+STATICFILES_DIRS	drf_react/settings.py	/^STATICFILES_DIRS = ($/;"	kind:variable	line:119
+STATIC_URL	drf_react/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:117
+TEMPLATES	drf_react/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:42
+TIME_ZONE	drf_react/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:96
+TemplateView	drf_react/urls.py	/^from django.views.generic import TemplateView$/;"	kind:namespace	line:18
+TestCase	api/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+Token	api/signals.py	/^from rest_framework.authtoken.models import Token$/;"	kind:namespace	line:5
+USE_I18N	drf_react/settings.py	/^USE_I18N = True$/;"	kind:variable	line:98
+USE_L10N	drf_react/settings.py	/^USE_L10N = True$/;"	kind:variable	line:100
+USE_TZ	drf_react/settings.py	/^USE_TZ = True$/;"	kind:variable	line:102
+User	api/signals.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:2
+WEBPACK_LOADER	drf_react/settings.py	/^WEBPACK_LOADER = {$/;"	kind:variable	line:127
+WSGI_APPLICATION	drf_react/settings.py	/^WSGI_APPLICATION = 'drf_react.wsgi.application'$/;"	kind:variable	line:58
+__init__.py	api/__init__.py	1;"	kind:file	line:1
+__init__.py	api/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	drf_react/__init__.py	1;"	kind:file	line:1
+__str__	api/models.py	/^    def __str__(self):$/;"	kind:member	line:22
+address	api/models.py	/^    address = models.CharField(max_length=300)$/;"	kind:variable	line:18
+admin	api/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	drf_react/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	api/admin.py	1;"	kind:file	line:1
+application	drf_react/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	api/apps.py	1;"	kind:file	line:1
+author	api/models.py	/^	author = models.CharField(max_length=100)$/;"	kind:variable	line:5
+csrf_exempt	api/urls.py	/^from django.views.decorators.csrf import csrf_exempt$/;"	kind:namespace	line:2
+dataset_id	api/models.py	/^    dataset_id = models.CharField(max_length=100)$/;"	kind:variable	line:9
+default_app_config	api/__init__.py	/^default_app_config = 'api.apps.ApiConfig'/;"	kind:variable	line:1
+dependencies	api/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:9
+dependencies	api/migrations/0002_location.py	/^    dependencies = [$/;"	kind:variable	line:9
+description	api/models.py	/^    description = models.CharField(max_length=300)$/;"	kind:variable	line:11
+execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+fields	api/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:15
+fields	api/migrations/0002_location.py	/^            fields=[$/;"	kind:variable	line:16
+fields	api/serializers.py	/^		fields = ('id', 'title', 'description', 'image')$/;"	kind:variable	line:16
+fields	api/serializers.py	/^		fields = ('title', 'author')$/;"	kind:variable	line:9
+generics	api/views.py	/^from rest_framework import generics$/;"	kind:namespace	line:1
+geo_lat	api/models.py	/^    geo_lat = models.CharField(max_length=100)$/;"	kind:variable	line:13
+geo_long	api/models.py	/^    geo_long = models.CharField(max_length=100)$/;"	kind:variable	line:12
+get_wsgi_application	drf_react/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+image	api/models.py	/^    image = models.CharField(max_length=100)$/;"	kind:variable	line:14
+include	drf_react/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:16
+init_new_user	api/signals.py	/^def init_new_user(sender, instance, signal, created, **kwargs):$/;"	kind:function	line:8
+manage.py	manage.py	1;"	kind:file	line:1
+migrations	api/migrations/0001_initial.py	/^from django.db import models, migrations$/;"	kind:namespace	line:4
+migrations	api/migrations/0002_location.py	/^from django.db import models, migrations$/;"	kind:namespace	line:4
+model	api/serializers.py	/^		model = Book$/;"	kind:variable	line:8
+model	api/serializers.py	/^		model = Location$/;"	kind:variable	line:15
+models	api/migrations/0001_initial.py	/^from django.db import models, migrations$/;"	kind:namespace	line:4
+models	api/migrations/0002_location.py	/^from django.db import models, migrations$/;"	kind:namespace	line:4
+models	api/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	api/models.py	1;"	kind:file	line:1
+name	api/apps.py	/^    name = 'api'$/;"	kind:variable	line:7
+name	api/migrations/0001_initial.py	/^            name='Book',$/;"	kind:variable	line:14
+name	api/migrations/0002_location.py	/^            name='Location',$/;"	kind:variable	line:15
+obtain_auth_token	api/urls.py	/^from rest_framework.authtoken.views import obtain_auth_token$/;"	kind:namespace	line:5
+operations	api/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:12
+operations	api/migrations/0002_location.py	/^    operations = [$/;"	kind:variable	line:13
+os	drf_react/settings.py	/^import os$/;"	kind:namespace	line:1
+os	drf_react/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	manage.py	/^import os$/;"	kind:namespace	line:2
+post_save	api/signals.py	/^from django.db.models.signals import post_save$/;"	kind:namespace	line:1
+queryset	api/views.py	/^	queryset = Book.objects.all()$/;"	kind:variable	line:10
+queryset	api/views.py	/^	queryset = Location.objects.all()$/;"	kind:variable	line:18
+ready	api/apps.py	/^    def ready(self):$/;"	kind:member	line:9
+receiver	api/signals.py	/^from django.dispatch import receiver$/;"	kind:namespace	line:3
+registered_date	api/models.py	/^    registered_date = models.CharField(max_length=100)$/;"	kind:variable	line:15
+serializer_class	api/views.py	/^	serializer_class = BookSerializer$/;"	kind:variable	line:11
+serializer_class	api/views.py	/^	serializer_class = LocationSerializer$/;"	kind:variable	line:19
+serializers	api/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers.py	api/serializers.py	1;"	kind:file	line:1
+settings.py	drf_react/settings.py	1;"	kind:file	line:1
+signals	api/apps.py	/^        from . import signals$/;"	kind:namespace	line:10
+signals.py	api/signals.py	1;"	kind:file	line:1
+source	api/models.py	/^    source = models.CharField(max_length=100)$/;"	kind:variable	line:17
+subject	api/models.py	/^    subject = models.CharField(max_length=100)$/;"	kind:variable	line:16
+sys	manage.py	/^import sys$/;"	kind:namespace	line:3
+tel	api/models.py	/^    tel = models.CharField(max_length=100)$/;"	kind:variable	line:19
+tests.py	api/tests.py	1;"	kind:file	line:1
+title	api/models.py	/^	title = models.CharField(max_length=200, unique=True)$/;"	kind:variable	line:4
+title	api/models.py	/^    title = models.CharField(max_length=100)$/;"	kind:variable	line:10
+unicode_literals	api/apps.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:1
+unicode_literals	api/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	api/migrations/0002_location.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+url	api/models.py	/^    url = models.CharField(max_length=300)$/;"	kind:variable	line:20
+url	api/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	drf_react/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:16
+urlpatterns	api/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urlpatterns	drf_react/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urls.py	api/urls.py	1;"	kind:file	line:1
+urls.py	drf_react/urls.py	1;"	kind:file	line:1
+views	api/urls.py	/^from . import views$/;"	kind:namespace	line:8
+views.py	api/views.py	1;"	kind:file	line:1
+wsgi.py	drf_react/wsgi.py	1;"	kind:file	line:1
