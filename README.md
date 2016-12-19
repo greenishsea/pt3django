@@ -18,6 +18,7 @@ Expect to clone pt3react with naming client.
 ### install
 `npm install`
 `pip install -r requirements.txt`  
+** CAUTION ** replace your-secret-key with your actual key.  
 `export DJANGO_SECRET_KEY='your-secret-key'`
 
 ### launch in dev mode
